@@ -356,6 +356,7 @@ function genericPrintNoParens(path, options, print, args) {
     case "SpreadElementPattern":
     case "RestProperty":
     case "ExperimentalRestProperty":
+    case "ExperimentalSpreadProperty":
     case "SpreadProperty":
     case "SpreadPropertyPattern":
     case "RestElement":
